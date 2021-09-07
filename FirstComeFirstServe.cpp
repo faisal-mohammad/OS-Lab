@@ -46,7 +46,7 @@ int main()
         cout<<"P["<<i+1<<"]="<<"  "<<"Bust Time : "<<bt[i]<<"  "<<"Completion time : "<<ct[i]<<endl;
         act = act + ct[i];
     }
-    //Average waiting, turnaround and completion time
+    //Average waiting, turnaround and completion time finding
     float result_of_awt = awt/n;
     float result_of_atat = atat/n;
     float result_of_act = act/n;
